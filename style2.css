@@ -1,0 +1,107 @@
+body {
+    background-image:url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: rgb(232, 167, 137);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Dancing Script', Arial, sans-serif;
+    font-size: 75px;
+    font-style: italic; 
+}
+h2 {
+    color: rgb(142, 113, 77);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+h3 {
+    color: maroon;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+p {
+    color: rgb(128, 81, 68);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+li {
+    color: rgb(198, 69, 41);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(232, 167, 137);
+}
+.header a {
+    float: left;
+    color: rgb(154, 122, 87);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header a:hover {
+    background-color: rgb(88, 3, 3);
+    color: White;
+}
+.header a.active {
+    background-color: rgb(223, 121, 84);
+    color: white;
+}
+.header-Right {
+    float: right;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(232, 167, 137);
+    color: rgb(198, 69, 41);
+    text-align: center;
+    padding: 10px 0;
+}
+.quote-card {
+    background: pink;
+    padding: 30px;
+    border-left: 15px solid burlywood;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(232, 167, 137);
+    transition: transform 0.3s ease; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(154, 122, 87);
+    font-size: 20px;
+    width: 500px;
+    margin: 20px auto;
+}
+.quote-card:hover {
+    background-color: rgb(234, 142, 142);
+    transform: translateY(-5px);
+}
+.author {
+    font-weight: bold;
+    color: rgb(142, 113, 77);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+.cat-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 60px;
+}
